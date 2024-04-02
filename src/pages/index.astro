@@ -1,0 +1,64 @@
+---
+const pageTitle = "Webinit";
+import '../styles/global.css';
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{pageTitle}</title>
+        <script src="https://kit.fontawesome.com/114632e145.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <style>
+            .hero {
+                border: 1px solid pink;
+                margin-top: 2em;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+           h2 i {
+                color: #03045e;
+            }
+            .hero h2 {
+                margin: .3em 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img src="public/webinit-high-resolution-logo-transparent.png" alt="webinit logo" class="logo">
+            </div>
+            <nav>
+
+            </nav>
+        </header>
+        <section id="home">
+            <div class="hero">
+                <h1>Welcome to {pageTitle},</h1>
+                <h2>Your trusted partner <i class="fa-solid fa-handshake-angle"></i> for <span class="highlight-text">custom</span> small business websites! <i class="fa-solid fa-code"></i></h2>
+
+                <p> With our creative design <i class="fa-solid fa-palette highlight-item"></i> and coding skills, your site will stand out and perform awesomely. <i class="fa-solid fa-rocket highlight-item"></i></p>
+            </div>
+            
+        </section>
+        <section id="services">
+
+        </section>
+        <section id="contact">
+
+        </section>
+        <footer>
+
+        </footer>
+    </body>
+</html>
